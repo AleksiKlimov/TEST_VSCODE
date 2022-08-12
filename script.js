@@ -1,10 +1,14 @@
-document.body.innerHML='<h1>Hello world from JS</h1>'
-console.log("test !!!!!!!!!")
+let d = function foo(count) {
+  if (count > 0) {
+    count--;
+    return foo(count);
+  }
+  console.log("end r func");
+};
+d(5);
 
-
-//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
-alert('hello dear friends')
-const date = Date()
-function sayHeloo(date) {
-   console.log(date)
+function showDate() {
+  let a = new Date();
+  console.log(a);
 }
+showDate();
