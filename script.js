@@ -1,14 +1,4 @@
-let d = function foo(count) {
-  if (count > 0) {
-    count--;
-    return foo(count);
-  }
-  console.log("end r func");
-};
-d(5);
-
-function showDate() {
-  let a = new Date();
-  console.log(a);
-}
-showDate();
+let a =
+  "Как создать  новую переменную с каким-нибудь строковым литералом.ую с каким-нибудь строковым литералом.ую с каким-нибудь строковым литералом.ую с каким-нибудь строковым литералом.ую с каким-нибудь строковым литералом.ую с каким-нибудь строковым литералом ";
+let b = a.endsWith(" ");
+console.log(b);
